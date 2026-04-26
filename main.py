@@ -7,7 +7,9 @@ TOKEN = '8789432285:AAE0NsRd-lHLhDkzhx1CCUXekobc2sME_HQ'
 bot = telebot.TeleBot(TOKEN)
 
 # হোস্টিং করলে লোকালহোস্টের বদলে আপনার সার্ভার ইউআরএল দিন
-BASE_URL = "http://localhost:3000" 
+# main.py এর ভেতর এই লাইনটি পরিবর্তন করুন
+BASE_URL = "https://My-2nd-bot-production.up.railway.app"
+
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
