@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # হোস্টিং করলে লোকালহোস্টের বদলে আপনার সার্ভার ইউআরএল দিন
 # main.py এর ভেতর এই লাইনটি পরিবর্তন করুন
-BASE_URL = "https://My-2nd-bot-production.up.railway.app"
+BASE_URL = "https://newwwwww-production-ca26.up.railway.app"
 
 
 @bot.message_handler(commands=['start'])
